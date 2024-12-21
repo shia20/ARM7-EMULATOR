@@ -6,6 +6,3 @@ def read_file():
 
 if __name__ == "__main__":
     read_file()
-
-    print("xo")
-    print("what the fuck is happening")
