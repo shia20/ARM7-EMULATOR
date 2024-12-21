@@ -3,8 +3,8 @@ def read_file():
     with open("test.asm", 'r') as f:
         for line in f:
             code.append(line)
-    print(code)
-
+    return code
 
 if __name__ == "__main__":
-    read_file()
+    code = read_file()
+    print(code)
